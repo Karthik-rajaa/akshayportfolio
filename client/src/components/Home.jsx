@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import profilePic from '../assets/akshayprof.JPG';
 
 const Home = () => (
@@ -12,7 +11,6 @@ const Home = () => (
           With a passion for storytelling and a knack for capturing unique voices, I help individuals and businesses bring their ideas to life. <br/>
           <span className="highlight">Currently open to new projects!</span>
         </p>
-        <Link to="/contact" className="cta-btn purple-btn">Contact Me</Link>
       </div>
       <div className="home-right">
         <div className="profile-pic-frame">
